@@ -7,7 +7,7 @@ Want to quickly get started building your own project with [Prismic][prismic] an
 
 &nbsp;
 
-<img width="1334" alt="Screenshot of the site on a desktop browser" src="https://user-images.githubusercontent.com/31219208/225357363-5f020f0f-16cb-43c6-b191-5c55dfd1be91.png">
+![Starter screenshot](https://user-images.githubusercontent.com/31219208/228820114-98993841-0b14-40cf-9f39-1b81effe752f.png)
 
 &nbsp;
 
@@ -83,8 +83,6 @@ These are important files that you should leave as-is:
 - `slices/` - This directory contains Slice components, which are generated programmatically by Slice Machine. To customize a Slice template, you can edit the Slice's `index.vue` file. To add Slices, delete Slices, or edit Slice models, use Slice Machine (more info below).
 
 Learn more about how to edit your components with [Fetch Data in Nuxt](https://prismic.io/docs/technologies/nuxt-fetch-data) and [Template Content in Nuxt](https://prismic.io/docs/technologies/nuxt-template-content).
-
-Styling in this project is implemented with Tailwind CSS. See the [Tailwind docs](https://tailwindcss.com/docs) for more info.
 
 ### Deploy to the web
 
