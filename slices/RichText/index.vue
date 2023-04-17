@@ -1,7 +1,7 @@
 <template>
-  <div class="this">
+  <section>
     <PrismicRichText :field="slice.primary.content" class="richtext" />
-  </div>
+  </section>
 </template>
 
 <script>
@@ -15,14 +15,14 @@ export default {
 </script>
 
 <style scoped>
-.this >>> .richtext {
+section >>> .richtext {
   max-width: 600px;
   margin: 6em auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.this >>> .richtext .codespan {
+section >>> .richtext .codespan {
   font-family: monospace;
 }
 </style>
