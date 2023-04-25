@@ -1,4 +1,4 @@
-import sm from "./sm.json";
+import { repositoryName } from "./slicemachine.config.json";
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -53,7 +53,7 @@ export default {
   },
 
   prismic: {
-    endpoint: sm.apiEndpoint,
+    endpoint: `https://${repositoryName}.cdn.prismic.io/api/v2`,
     preview: "/api/preview",
     modern: true,
     apiOptions: {

@@ -19,7 +19,8 @@
   "devDependencies": {
     "@nuxtjs/prismic": "^1.4.2",
     "@prismicio/slice-simulator-vue": "^0.2.3",
+    "@slicemachine/adapter-nuxt2": "^0.0.2-dev-plugins-m3.0",
     "concurrently": "^8.0.1",
-    "slice-machine-ui": "^0.7.1"
+    "slice-machine-ui": "^0.6.1-dev-plugins-m3.4"
   }
 }
