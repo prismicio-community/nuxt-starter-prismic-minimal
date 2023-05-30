@@ -1,28 +1,31 @@
+<script setup lang="ts">
+import { Content } from '@prismicio/client'
+
+// The array passed to \`getSliceComponentProps\` is purely optional.
+// Consider it as a visual hint for you when templating your slice.
+defineProps(getSliceComponentProps<Content.RichTextSlice>(
+  ['slice', 'index', 'slices', 'context']
+));
+</script>
+
 <template>
   <section>
-    <PrismicRichText :field="slice.primary.content" class="richtext" />
+    <PrismicRichText
+      :field="slice.primary.content"
+      class="richtext"
+    />
   </section>
 </template>
 
-<script>
-import { getSliceComponentProps } from "@prismicio/vue/components";
-
-export default {
-  // The array passed to `getSliceComponentProps` is purely optional.
-  // Consider it as a visual hint for you when templating your slice.
-  props: getSliceComponentProps(["slice", "index", "slices", "context"]),
-};
-</script>
-
 <style scoped>
-section >>> .richtext {
+section:deep(.richtext) {
   max-width: 600px;
   margin: 6em auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-section >>> .richtext .codespan {
+section:deep(.richtext .codespan) {
   font-family: monospace;
 }
 </style>
