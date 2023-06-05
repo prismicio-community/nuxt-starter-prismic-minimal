@@ -18,10 +18,10 @@
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxtjs/prismic": "rc",
     "@types/node": "^18",
-    "@slicemachine/adapter-nuxt": "^0.2.0",
-    "concurrently": "^8.0.1",
-    "eslint": "^8.41.0",
+    "@slicemachine/adapter-nuxt": "^0.2.1",
+    "concurrently": "^8.1.0",
+    "eslint": "^8.42.0",
     "nuxt": "^3.5.2",
-    "slice-machine-ui": "^1.1.0"
+    "slice-machine-ui": "^1.1.1"
   }
 }
