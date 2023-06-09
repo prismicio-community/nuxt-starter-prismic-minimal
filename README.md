@@ -101,7 +101,7 @@ For the official Prismic documentation, see [Prismic's guide for Nuxt](prismic-d
 ## License
 
 ```
-Copyright 2013-2022 Prismic <contact@prismic.io> (https://prismic.io)
+Copyright 2013-2023 Prismic <contact@prismic.io> (https://prismic.io)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -116,8 +116,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-[prismic]: https://prismic.io/
-[prismic-docs]: https://prismic.io/docs/technologies/nuxt
+[prismic]: https://prismic.io
+[prismic-docs]: https://prismic.io/docs/nuxt-3-setup
 [prismic-sign-up]: https://prismic.io/dashboard/signup
-[nuxt]: https://nuxtjs.org/
-[live-demo]: https://nuxt-starter-prismic-minimal.vercel.app/
+[nuxt]: https://nuxt.com
+[live-demo]: https://nuxt-starter-prismic-minimal.vercel.app
