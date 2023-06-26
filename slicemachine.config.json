@@ -2,7 +2,7 @@
   "libraries": [
     "./slices"
   ],
-  "repositoryName": "nextjs-starter-prismic-minimal",
+  "repositoryName": "nuxt-starter-prismic-minimal",
   "adapter": "@slicemachine/adapter-nuxt",
   "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
 }
