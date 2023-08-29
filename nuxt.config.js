@@ -44,8 +44,7 @@ export default {
           autoprefixer: {},
         },
       },
-    },
-    transpile: ["@prismicio/vue"],
+    }
   },
 
   publicRuntimeConfig: {
