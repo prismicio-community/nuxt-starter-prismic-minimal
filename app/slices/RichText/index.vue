@@ -13,6 +13,7 @@ defineProps(getSliceComponentProps<Content.RichTextSlice>(
     <PrismicRichText
       :field="slice.primary.content"
       class="richtext"
+      wrapper="section"
     />
   </section>
 </template>
