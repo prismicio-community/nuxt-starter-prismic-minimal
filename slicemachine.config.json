@@ -1,6 +1,6 @@
 {
   "libraries": [
-    "./slices"
+    "./app/slices"
   ],
   "repositoryName": "nuxt-starter-prismic-minimal",
   "adapter": "@slicemachine/adapter-nuxt",
