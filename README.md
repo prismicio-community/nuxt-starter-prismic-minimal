@@ -57,7 +57,7 @@ To add a production preview, option your repository and go to _Settings > Previe
 
 Now, go to a draft document and click the eye icon in the top-right corner.
 
-To learn more about how to configure previews, read [Preview Drafts in Nuxt](https://prismic.io/docs/technologies/nuxt-preview-drafts) in the Prismic documentation.
+To learn more about how to configure previews, read [Preview Drafts in Nuxt](https://prismic.io/docs/nuxt#preview-draft-content) in the Prismic documentation.
 
 ### Customize this website
 
@@ -82,26 +82,26 @@ These are important files that you should leave as-is:
 - `pages/slice-simulator.vue` - Do not edit or delete this file. This file simulates your Slice components in development.
 - `slices/` - This directory contains Slice components, which are generated programmatically by Slice Machine. To customize a Slice template, you can edit the Slice's `index.vue` file. To add Slices, delete Slices, or edit Slice models, use Slice Machine (more info below).
 
-Learn more about how to edit your components with [Fetch Data in Nuxt](https://prismic.io/docs/technologies/nuxt-fetch-data) and [Template Content in Nuxt](https://prismic.io/docs/technologies/nuxt-template-content).
+Learn more about how to edit your components with [Fetch Data in Nuxt](https://prismic.io/docs/nuxt#fetch-content) and [Template Content in Nuxt](https://prismic.io/docs/nuxt-template-content).
 
 ### Deploy to the web
 
-To put your project online, see [Deploy your Nuxt App](https://prismic.io/docs/technologies/nuxt-deploy).
+To put your project online, see [Deploy your Nuxt App](https://prismic.io/docs/nuxt#deploy).
 
 ### Edit content models with Slice Machine
 
-This project includes an application called Slice Machine, which generates models for your Custom Types and Slices. Slice Machine stores the models locally in your codebase, so you can save and version them. It also syncs your models to Prismic. To learn how to use Slice Machine, read [Model Content in Nuxt](https://prismic.io/docs/technologies/nuxt-model-content).
+This project includes an application called Slice Machine, which generates models for your Custom Types and Slices. Slice Machine stores the models locally in your codebase, so you can save and version them. It also syncs your models to Prismic. To learn how to use Slice Machine, read [Model Content in Nuxt](https://prismic.io/docs/content-modeling).
 
-If you change or add to your Custom Types, you'll need to update your route handling to match. To learn how to do that, read [Define Paths in Nuxt](https://prismic.io/docs/technologies/nuxt-define-routes).
+If you change or add to your Custom Types, you'll need to update your route handling to match. To learn how to do that, read [Define Paths in Nuxt](https://prismic.io/docs/nuxt#define-routes).
 
 ## Documentation
 
-For the official Prismic documentation, see [Prismic's guide for Nuxt](prismic-docs) or the [technical references for the installed Prismic packages](https://prismic.io/docs/technologies/technical-references).
+For the official Prismic documentation, see [Prismic's guide for Nuxt](prismic-docs) or the [technical references for the installed Prismic packages](https://prismic.io/docs/apis).
 
 ## License
 
 ```
-Copyright 2013-2023 Prismic <contact@prismic.io> (https://prismic.io)
+Copyright 2013-2026 Prismic <contact@prismic.io> (https://prismic.io)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -117,7 +117,7 @@ limitations under the License.
 ```
 
 [prismic]: https://prismic.io
-[prismic-docs]: https://prismic.io/docs/nuxt-3-setup
+[prismic-docs]: https://prismic.io/docs/nuxt
 [prismic-sign-up]: https://prismic.io/dashboard/signup
 [nuxt]: https://nuxt.com
 [live-demo]: https://nuxt-starter-prismic-minimal.vercel.app
