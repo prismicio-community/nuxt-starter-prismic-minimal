@@ -19,8 +19,8 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.12.1",
-    "@nuxtjs/prismic": "pr-235",
-    "@slicemachine/adapter-nuxt": "^0.3.92",
+    "@nuxtjs/prismic": "^5.0.0",
+    "@slicemachine/adapter-nuxt": "^0.3.93",
     "concurrently": "^9.2.1",
     "eslint": "^9.39.2",
     "nuxt": "^4.2.2",
