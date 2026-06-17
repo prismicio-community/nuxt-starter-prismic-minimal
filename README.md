@@ -90,7 +90,7 @@ To put your project online, see [Deploy your Nuxt App](https://prismic.io/docs/n
 
 ### Edit content models with the Type Builder
 
-This project's content models are edited in the Type Builder, available in your Prismic repository's dashboard. To pull your models into your codebase so you can save and version them, run `npx prismic sync`. This downloads the latest models for your Custom Types and Slices and regenerates their types.
+This project's content models are edited in the Type Builder, available in your Prismic repository's dashboard. To pull your models into your codebase so you can save and version them, run `npx prismic pull`. This downloads the latest models for your Custom Types and Slices and regenerates their types.
 
 If you change or add to your Custom Types, you'll need to update your route handling to match. Routes are defined in `prismic.config.json`. To learn how to configure them, read [Define Paths in Nuxt](https://prismic.io/docs/nuxt#define-routes).
 
