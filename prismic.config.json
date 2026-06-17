@@ -1,0 +1,8 @@
+{
+  "repositoryName": "nuxt-starter-prismic-minimal",
+  "libraries": ["./app/slices"],
+  "routes": [
+    { "type": "page", "uid": "home", "path": "/" },
+    { "type": "page", "path": "/:uid" }
+  ]
+}

@@ -18,7 +18,7 @@ To start a new project using this starter, run the following commands in your te
 ```sh
 npx degit prismicio-community/nuxt-starter-prismic-minimal your-project-name
 cd your-project-name
-npx @slicemachine/init@latest
+npx prismic init
 ```
 
 The commands will do the following:
@@ -80,7 +80,7 @@ Here are some of the files in your project that you can edit:
 These are important files that you should leave as-is:
 
 - `pages/slice-simulator.vue` - Do not edit or delete this file. This file simulates your Slice components in development.
-- `slices/` - This directory contains Slice components, which are generated programmatically by Slice Machine. To customize a Slice template, you can edit the Slice's `index.vue` file. To add Slices, delete Slices, or edit Slice models, use Slice Machine (more info below).
+- `slices/` - This directory contains Slice components, which are generated programmatically by Prismic. To customize a Slice template, you can edit the Slice's `index.vue` file. To add Slices, delete Slices, or edit Slice models, use the Type Builder (more info below).
 
 Learn more about how to edit your components with [Fetch Data in Nuxt](https://prismic.io/docs/nuxt#fetch-content) and [Template Content in Nuxt](https://prismic.io/docs/nuxt-template-content).
 
@@ -88,11 +88,11 @@ Learn more about how to edit your components with [Fetch Data in Nuxt](https://p
 
 To put your project online, see [Deploy your Nuxt App](https://prismic.io/docs/nuxt#deploy).
 
-### Edit content models with Slice Machine
+### Edit content models with the Type Builder
 
-This project includes an application called Slice Machine, which generates models for your Custom Types and Slices. Slice Machine stores the models locally in your codebase, so you can save and version them. It also syncs your models to Prismic. To learn how to use Slice Machine, read [Model Content in Nuxt](https://prismic.io/docs/content-modeling).
+This project's content models are edited in the Type Builder, available in your Prismic repository's dashboard. To pull your models into your codebase so you can save and version them, run `npx prismic sync`. This downloads the latest models for your Custom Types and Slices and regenerates their types.
 
-If you change or add to your Custom Types, you'll need to update your route handling to match. To learn how to do that, read [Define Paths in Nuxt](https://prismic.io/docs/nuxt#define-routes).
+If you change or add to your Custom Types, you'll need to update your route handling to match. Routes are defined in `prismic.config.json`. To learn how to configure them, read [Define Paths in Nuxt](https://prismic.io/docs/nuxt#define-routes).
 
 ## Documentation
 
