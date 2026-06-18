@@ -1,17 +1,16 @@
 <script setup lang="ts">
-import { asText } from '@prismicio/client'
-import { components } from '~/slices'
+import { asText } from "@prismicio/client";
+import { components } from "~/slices";
 
-const { client } = usePrismic()
-const { data: page } = await useAsyncData('index', () =>
-  client.getByUID('page', 'home')
-)
+const { client } = usePrismic();
+const { data: page } = await useAsyncData("index", () =>
+  client.getByUID("page", "home"),
+);
 
 useHead({
-  title: asText(page.value?.data.title)
-})
+  title: asText(page.value?.data.title),
+});
 </script>
-
 
 <template>
   <main>
