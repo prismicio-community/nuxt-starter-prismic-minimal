@@ -1,5 +1,8 @@
 # Prismic + Nuxt Minimal Starter
 
+> [!NOTE]
+> This starter is archived and no longer updated. To start a new Prismic project with Nuxt, see the [Nuxt guide](https://prismic.io/docs/nuxt).
+
 Want to quickly get started building your own project with [Prismic][prismic] and [Nuxt][nuxt]? This project includes basic configurations and nothing else. The project includes one Rich Text Slice, a homepage, and a dynamic page.
 
 - **Demo**: [Open live demo][live-demo]
